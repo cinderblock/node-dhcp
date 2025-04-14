@@ -21,6 +21,7 @@
   ],
   "author": "Robert Eisele <robert@xarg.org> (http://www.xarg.org/)",
   "main": "lib/dhcp.js",
+  "types": "lib/dhcp.d.ts",
   "private": false,
   "readmeFilename": "README.md",
   "directories": {
