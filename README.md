@@ -184,13 +184,13 @@ docker run -p other.host.ip:67:67/udp -d --name dhcpd2 infusion/node-dhcp:0
 Installation
 ===
 
-Installing node-dhcp is as easy as cloning this repo or use npmjs:
+Installing `node-dhcp` is as easy as cloning this repo or use `npm`:
 
 ```bash
 npm install dhcp
 ```
 
-If command line tools `dhcp` and `dhcpd` shall be installed, npmjs can be used as well:
+If command line tools `dhcp` and `dhcpd` shall be installed, `npm` can be used as well:
 
 ```bash
 npm install dhcp -g
