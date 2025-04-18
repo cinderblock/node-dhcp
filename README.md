@@ -10,7 +10,7 @@ node-dhcp is a RFC compliant DHCP client and server implementation on top of nod
 Motivation
 ===
 
-A DHCP server can be used to configure the entire local network. Typical parameters that can be organized with a DHCP server are ip-addresses, gateways / router, DNS server and really a lot more. DHCP is quite old and well establishd solutions are on the market, commercially and open source - so why a new implementation?
+A DHCP server can be used to configure the entire local network. Typical parameters that can be organized with a DHCP server are ip-addresses, gateways / router, DNS server and really a lot more. DHCP is quite old and well established solutions are on the market, commercially and open source - so why a new implementation?
 
 I was searching for a minimalistic DHCP server, which is robust and highly configurable. The first problem I had was: I wanted to deliver an IP address to a Raspberry PI without static configuration right out of my Macbook. However, Apple made it almost impossible to configure the onboard DHCP-server with newer versions of OSX.
 
@@ -90,7 +90,7 @@ var s = dhcp.createServer({
 s.listen();
 ```
 
-Any config directive can be a function, like illustrated with the bootFile directive for PXE boot. This way you get a fully programable DHCP server.
+Any config directive can be a function, like illustrated with the bootFile directive for PXE boot. This way you get a fully programmable DHCP server.
 
 Simple DHCP Client
 ---
